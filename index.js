@@ -5,6 +5,7 @@ import "dotenv/config"
 import path from "path"
 import { fileURLToPath } from "url";
 import routesColores from "./src/routes/colores.routes.js"
+import "./src/database/database"
 
 const app = express()
 
